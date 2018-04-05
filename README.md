@@ -1,7 +1,7 @@
 # highlight-pack
 
-<!-- ditemplate -->
-<style>
+&lt;!-- ditemplate --&gt;
+&lt;style&gt;
 pre{
   padding:.5em 1em;
   margin:0;
@@ -16,7 +16,7 @@ pre{
   color:#999
   }
 code{
-  font-family:Consolas,Monaco,'Andale Mono','Courier New',Courier,Monospace;
+  font-family:Consolas,Monaco,&#039;Andale Mono&#039;,&#039;Courier New&#039;,Courier,Monospace;
   line-height:15px;
   color:#ff3c00;
   font-size:13.5px
@@ -60,62 +60,61 @@ pre .deletion{
 pre .tex .formula{
   background:#073642
   }
-pre[data-codetype="HTML"]{
+pre[data-codetype=&quot;HTML&quot;]{
   border-color:#0B7E88;
   color:#08464B
   }
-pre[data-codetype="CSS"]{
+pre[data-codetype=&quot;CSS&quot;]{
   border-color:#7B990C;
   color:#4B5D08
   }
-pre[data-codetype="JavaScript"]{
+pre[data-codetype=&quot;JavaScript&quot;]{
   border-color:#545448;
   color:#1F2E24
   }
-pre[data-codetype="JQuery"]{
+pre[data-codetype=&quot;JQuery&quot;]{
   border-color:#395540;
   color:#2E2E27
   }
-pre[data-codetype="PHP"]{
+pre[data-codetype=&quot;PHP&quot;]{
   border-color:#FF9900;
   color:#865003
   }
-pre[data-codetype="XML"]{
+pre[data-codetype=&quot;XML&quot;]{
   border-color:#FF0C39;
   color:#790015
   }
-pre[data-codetype="HTML"]:before{
+pre[data-codetype=&quot;HTML&quot;]:before{
   background-color:#0B7E88
   }
-pre[data-codetype="CSS"]:before{
+pre[data-codetype=&quot;CSS&quot;]:before{
   background-color:#7B990C
   }
-pre[data-codetype="JavaScript"]:before{
+pre[data-codetype=&quot;JavaScript&quot;]:before{
   background-color:#545448
   }
-pre[data-codetype="JQuery"]:before{
+pre[data-codetype=&quot;JQuery&quot;]:before{
   background-color:#395540
   }
-pre[data-codetype="PHP"]:before{
+pre[data-codetype=&quot;PHP&quot;]:before{
   background-color:#FF9900
   }
-pre[data-codetype="XML"]:before{
+pre[data-codetype=&quot;XML&quot;]:before{
   background-color:#FF0C39
   }
-</tyle>
+&lt;/tyle&gt;
 
-<head>
+&lt;head&gt;
 .....
 .....
-<script src="https://cdn.rawgit.com/omrudi/highlight-pack/31e2a6f6/highlight-pack.js" type="text/javascript"></script><script>hljs.initHighlightingOnLoad();</script>
-</head>
+&lt;script src=&quot;https://cdn.rawgit.com/omrudi/highlight-pack/31e2a6f6/highlight-pack.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
+&lt;/head&gt;
 
 
 How to use?
-<pre data-codetype="HTML"><code> ... </code></pre>
-<pre data-codetype="CSS"><code> ... </code></pre>
-<pre data-codetype="JavaScript"><code> ... </code></pre>
-<pre data-codetype="JQuery"><code> ... </code></pre>
-<pre data-codetype="PHP"><code> ... </code></pre>
-<pre data-codetype="XML"><code> ... </code></pre>
-    
+&lt;pre data-codetype=&quot;HTML&quot;&gt;&lt;code&gt; ... &lt;/code&gt;&lt;/pre&gt;
+&lt;pre data-codetype=&quot;CSS&quot;&gt;&lt;code&gt; ... &lt;/code&gt;&lt;/pre&gt;
+&lt;pre data-codetype=&quot;JavaScript&quot;&gt;&lt;code&gt; ... &lt;/code&gt;&lt;/pre&gt;
+&lt;pre data-codetype=&quot;JQuery&quot;&gt;&lt;code&gt; ... &lt;/code&gt;&lt;/pre&gt;
+&lt;pre data-codetype=&quot;PHP&quot;&gt;&lt;code&gt; ... &lt;/code&gt;&lt;/pre&gt;
+&lt;pre data-codetype=&quot;XML&quot;&gt;&lt;code&gt; ... &lt;/code&gt;&lt;/pre&gt;
