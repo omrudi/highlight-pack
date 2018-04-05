@@ -1,1 +1,121 @@
 # highlight-pack
+
+<!-- ditemplate -->
+<style>
+pre{
+  padding:.5em 1em;
+  margin:0;
+  white-space:pre;
+  word-wrap:normal;
+  overflow:auto;
+  background-color:#f1f1f1;
+  font-size:12px;
+  clear:both;
+  border-left:15px solid #ccc;
+  border-right:1px solid #ccc;
+  color:#999
+  }
+code{
+  font-family:Consolas,Monaco,'Andale Mono','Courier New',Courier,Monospace;
+  line-height:15px;
+  color:#ff3c00;
+  font-size:13.5px
+  }
+pre code{
+  display:block;
+  padding:0.5em;
+  color:#555
+  }
+#comments pre code{
+  padding:0 !mportant;
+  color:#555
+  }
+pre .comment,pre .template_comment,pre .diff .header,pre .doctype,pre .pi,pre .lisp .string,pre .javadoc{
+  color:slategray
+  }
+pre .keyword,pre .winutils,pre .method,pre .addition,pre .css .tag,pre .request,pre .status,pre .nginx .title{
+  color:#859900
+  }
+pre .number,pre .command,pre .string,pre .tag .value,pre .phpdoc,pre .tex .formula,pre .regexp,pre .hexcolor{
+  color:#0077aa
+  }
+pre .title,pre .localvars,pre .chunk,pre .decorator,pre .built_in,pre .identifier,pre .vhdl .literal,pre .id,pre .css .function{
+  color:#990055
+  }
+pre .variable,pre .lisp .body,pre .smalltalk .number,pre .constant,pre .class .title,pre .parent,pre .haskell .type{
+  color:#669900
+  }
+pre .attribute{
+  color:#588400
+  }
+pre .rules .value{
+  color:#333
+  }
+pre .preprocessor,pre .preprocessor .keyword,pre .shebang,pre .symbol,pre .symbol .string,pre .diff .change,pre .special,pre .attr_selector,pre .important,pre .subst,pre .cdata,pre .clojure .title,pre .css .pseudo{
+  color:#a0733f
+  }
+pre .deletion{
+  color:#905
+  }
+pre .tex .formula{
+  background:#073642
+  }
+pre[data-codetype="HTML"]{
+  border-color:#0B7E88;
+  color:#08464B
+  }
+pre[data-codetype="CSS"]{
+  border-color:#7B990C;
+  color:#4B5D08
+  }
+pre[data-codetype="JavaScript"]{
+  border-color:#545448;
+  color:#1F2E24
+  }
+pre[data-codetype="JQuery"]{
+  border-color:#395540;
+  color:#2E2E27
+  }
+pre[data-codetype="PHP"]{
+  border-color:#FF9900;
+  color:#865003
+  }
+pre[data-codetype="XML"]{
+  border-color:#FF0C39;
+  color:#790015
+  }
+pre[data-codetype="HTML"]:before{
+  background-color:#0B7E88
+  }
+pre[data-codetype="CSS"]:before{
+  background-color:#7B990C
+  }
+pre[data-codetype="JavaScript"]:before{
+  background-color:#545448
+  }
+pre[data-codetype="JQuery"]:before{
+  background-color:#395540
+  }
+pre[data-codetype="PHP"]:before{
+  background-color:#FF9900
+  }
+pre[data-codetype="XML"]:before{
+  background-color:#FF0C39
+  }
+</tyle>
+
+<head>
+.....
+.....
+<script src="https://cdn.rawgit.com/omrudi/highlight-pack/31e2a6f6/highlight-pack.js" type="text/javascript"></script><script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+
+How to use?
+<pre data-codetype="HTML"><code> ... </code></pre>
+<pre data-codetype="CSS"><code> ... </code></pre>
+<pre data-codetype="JavaScript"><code> ... </code></pre>
+<pre data-codetype="JQuery"><code> ... </code></pre>
+<pre data-codetype="PHP"><code> ... </code></pre>
+<pre data-codetype="XML"><code> ... </code></pre>
+    
